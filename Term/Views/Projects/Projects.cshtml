@@ -1,0 +1,15 @@
+﻿
+@{
+    ViewBag.Title = "Projects";
+}
+
+<h2>@ViewBag.Title</h2>
+@foreach (var entry in ViewBag.Entries)
+{
+    <section>
+        <header>
+            <h1>@entry</h1>
+        </header>
+    </section>
+}
+
